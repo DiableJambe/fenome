@@ -8,7 +8,7 @@ module afu(
     input [63:0] ha_jea,
     input ha_jeapar,
     output ah_jrunning,
-    output reg ah_jdone,
+    output ah_jdone,
     output ah_jcack,
     output [63:0] ah_jerror,
     output ah_jyield,
